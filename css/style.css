@@ -9,15 +9,15 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
-    background-image: linear-gradient(145deg, #000428 15%, #004e92 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 400% 400%;
     color: #fff;
-    word-spacing: 3px;
+    background-image: url("/images/main-bg.jpg");
+    background-size: cover;
+     /* word-spacing: 3px;
     -webkit-animation: bg 5s ease infinite;
-            animation: bg 5s ease infinite;
+            animation: bg 5s ease infinite; */
 }
 
 /* Animation */
@@ -48,8 +48,8 @@ body {
   .head_wrapper .img-area,
   .social-icons a,
   .buttons button {
-    background: #004e92;
-    box-shadow: -3px -3px 7px #000428, 3px 3px 5px #004e92;
+    /* background: #34495E; */
+    box-shadow: -3px -3px 7px #000428, 3px 3px 5px #576fe6;
   }
 
   .head_wrapper{
@@ -119,7 +119,7 @@ body {
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #000428;
+  background: #2C3E50;
   box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
 }
 .buttons button:hover:before {
@@ -143,6 +143,9 @@ body {
   .social-icons a.linkedin i {
     color: #1da1f2;
   }
+  .social-icons a.github i {
+    color: #000;
+  }
 
   /* .head_wrapper .buttons {
     display: flex;
@@ -155,12 +158,12 @@ body {
   }
 .buttons button {
     position: relative;
+    background-color: transparent;
     width: 100%;
     border: none;
     outline: none;
     padding: 12px 0;
     margin: 10px;
-    /* color: #fff; */
     font-size: 11pt;
     font-weight: 500;
     border-radius: 5px;

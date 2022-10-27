@@ -33,9 +33,11 @@
 body {
     background-color: black;
 }
-/* Horizantal Line */
-hr{
-    border-color: rgba(255,255,255,.6);
+
+.navbar-brand{
+    color: #000; 
+    font-size: 1.25rem; 
+    ont-family: "Trirong", serif;
 }
   
 section{
@@ -82,6 +84,7 @@ h1 {
 
 }
 h2 {
+    font-family: "Audiowide", sans-serif;
     font-size: 2.5rem;
     line-height: 3.4375rem;
     font-weight: 500;
@@ -191,122 +194,6 @@ p {
     -webkit-box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, .05); 
     box-shadow: 0 0.25rem 0.375rem rgba(12, 0, 46, .05);   
 }
-
-
-.line{
-    border-bottom: 2px solid #ccc;
-    display: block;
-}
-
-/* CONTACT */
-#contact {
-    width: 100%;
-    height: 100%;
-  }
-.section-header {
-    text-align: center;
-    font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-}
-.contact-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    max-width: 840px;
-}
-  
-/* Left contact page */
-.form-horizontal {
-    /*float: left;*/
-    max-width: 400px;
-    font-family: 'Lato';
-    font-weight: 400;
-}
-  
-.form-control, 
-textarea {
-    max-width: 400px;
-    background-color: #000;
-    color: #fff;
-    letter-spacing: 1px;
-}
-  
-.send-button {
-    margin-top: 15px;
-    height: 34px;
-    width: 400px;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
-}
-  
-.alt-send-button {
-    width: 400px;
-    height: 34px;
-    transition: all .2s ease-in-out;
-}
-  
-.send-text {
-    display: block;
-    margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
-    letter-spacing: 2px;
-}
-  
-.alt-send-button:hover {
-    transform: translate3d(0px, -29px, 0px);
-}
-  
-/* Begin Right Contact Page */
-.direct-contact-container {
-    max-width: 400px;
-}
-  
-/* Location, Phone, Email Section */
-.contact-list {
-    list-style-type: none;
-    margin-left: -30px;
-    padding-right: 20px;
-}
-  
-.list-item {
-    line-height: 4;
-    color: #aaa;
-}
-  
-.contact-text {
-    font: 300 18px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: #bbb;
-}
-  
-.place {
-    margin-left: 62px;
-}
-  
-.phone {
-    margin-left: 56px;
-}
-  
-.gmail {
-    margin-left: 53px;
-}
-  
-.contact-text a {
-    color: #bbb;
-    text-decoration: none;
-    transition-duration: 0.2s;
-}
-  
-.contact-text a:hover {
-    color: #bbb;
-    text-decoration: none;
-}
-
 
 /* BOOTAM SOCIAL ICONS */
 .social_wrapper {
