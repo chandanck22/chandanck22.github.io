@@ -1,3 +1,3 @@
 
-<h1 text: "center";> Under Development </h1>
+<h1 align="center"> Under Development </h1>
 
