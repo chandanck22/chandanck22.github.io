@@ -15,41 +15,13 @@ body {
     color: #fff;
     background-image: url("/images/main-bg.jpg");
     background-size: cover;
-     /* word-spacing: 3px;
-    -webkit-animation: bg 5s ease infinite;
-            animation: bg 5s ease infinite; */
 }
 
-/* Animation */
-@-webkit-keyframes bg {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-}
-@keyframes bg {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-}
- 
   .head_wrapper,
   .head_wrapper .img-area,
   .social-icons a,
   .buttons button {
-    /* background: #34495E; */
-    box-shadow: -3px -3px 7px #000428, 3px 3px 5px #576fe6;
+        box-shadow: -3px -3px 7px #000428, 3px 3px 5px #576fe6;
   }
 
   .head_wrapper{
@@ -171,5 +143,5 @@ body {
     z-index: 4;
 }
 .buttons button a{
-    color: #fff;
+    color: #000;
 }
