@@ -91,7 +91,13 @@ body {
   bottom: 0;
   right: 0;
   border-radius: 50%;
-  background: #2C3E50;
+  background: linear-gradient(
+    -45deg, 
+    rgba(59,173,227,1) 0%, 
+    rgba(87,111,230,1) 25%, 
+    rgb(75, 77, 148) 51%, 
+    rgb(58, 33, 241) 100%
+);  
   box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
 }
 .buttons button:hover:before {
