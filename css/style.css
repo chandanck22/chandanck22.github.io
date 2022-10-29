@@ -12,7 +12,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 400% 400%;
-    color: #fff;
     background-image: url("/images/main-bg.jpg");
     background-size: cover;
 }
