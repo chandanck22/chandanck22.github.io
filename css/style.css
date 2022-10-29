@@ -9,9 +9,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 400% 400%;
+/*     background-repeat: no-repeat; */
+/*     background-attachment: fixed; */
+/*     background-size: 400% 400%; */
     background-image: url("/images/main-bg.jpg");
     background-size: cover;
 }
