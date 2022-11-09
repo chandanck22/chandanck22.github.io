@@ -77,6 +77,14 @@
   }
 }
 
+/* PROJECT */
+@media screen and (max-width: 1199px){
+  #projects h5{
+    line-height: 5rem;
+    font-size: 1.5rem;
+    margin: 7px;
+  }
+}
 
 /* Footer */
 @media screen and (max-width: 500px) {
