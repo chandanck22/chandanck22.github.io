@@ -5,43 +5,240 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandan Kushwaha</title>
-        <!-- bootstrap -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="./css/all.min.css">
-        <!-- favicon -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Fontawersome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive-style.css">
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 </head>
 <body>
-<div class="head_wrapper"> 
-    <div class="img-area">
-        <div class="inner-area">
-          <img src="./images/profile-img.jpg" alt="">
+<!-- HEADER -->
+<header class="header_banner">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">CK</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbarToggler10"
+            aria-controls="myNavbarToggler10" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbarToggler10">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://nullhackers.com/">blog</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav sm-icons mr-0">
+                <li class="nav-item"><a class="nav-link" href="https://instagram.com/chandanck22/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://twitter.com/chandanck22/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/chandanck22/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/chandanck22/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- BANNER -->
+<section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2>Hello</h2>
+                    <h1>I am Chandan Kushwaha</h1>
+                    <h5>Frontend Developer</h5> 
+                    <p> I am a young, enthusiastic programmer who enjoys creating something that brings positive impact to the society.<br> 
+                       I am so fond of contributing my best to open source and also believe in the power of community.<br>
+                       Crafting neat user experiences.
+                       </p>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="./all-links.html">All Links</a>
+                        <!-- <a class="main-btn secondary-btn" href="#">Get CV</a> -->
+    
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img home-right">
+                        <img src="./images/home-right.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects_wrapper">
+    <div class="container">
+        <div class="row align-item-center justify-content-between">
+            <div class="col-lg-6">
+                <div class="intro">
+                    <div class="hr-line">
+                        <h1>Projects</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <!-- <a href="#" class="main-btn primary-btn">View More</a> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="work">
+                    <div class="image-wrapper">
+                        <img class="img-fluid" src="./images/project1.jpg" alt="">
+                    </div>
+                    <h5>Image Editor</h5>
+                
+                <button class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>                
+                    <div class="collapse mb-5" id="collapse-btn-1">
+                        <div class="card">
+                          <div class="card-body">
+                            User can edit the image easily without worrying about the implementation providing an absract view with the help of Tkinter GUI.
+                                <br> Python: Tkinter, Numpy, OpenCV
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="work">
+                    <div class="image-wrapper">
+                        <img class="img-fluid" src="./images/project2.jpg" alt="">
+                    </div>
+                    <h5>Personal Site</h5>
+                
+                <button class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-2">Read More</button>                
+                    <div class="collapse mb-5" id="collapse-btn-2">
+                        <div class="card">
+                          <div class="card-body">
+                            Static website
+                            <br> HTML, CSS, Bootstrap
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="work">
+                    <div class="image-wrapper">
+                        <a href="https://github.com/chandanck22/batteryindicator/"><img class="img-fluid" src="./images/project3.jpg" alt=""></a>
+                        
+                    </div>
+                    <h5>Battery Indicator</h5>
+                
+                <button class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-3">Read More</button>                
+                    <div class="collapse mb-5" id="collapse-btn-3">
+                        <div class="card">
+                          <div class="card-body">
+                            A simple Battery Notifier application using Python. A battery notifier is a simple application that produces a notification message and ask to plug your charge every 10 second unless you plug you charger on the desktop.
+                                <br> Python: psutil, pyttsx3, win10toast
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
         </div>
     </div>
-    <div class="name">Chandan Kushwaha</div>
-    <div class="about">Student, Web Developer</div>
-    
-    <div class="social-icons">
-        <a href="https://twitter.com/chandanck22/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com/chandanck22/" class="insta" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/chandanck22/" class="linkedin" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://www.github.com/chandanck22/" class="github" target="_blank"><i class="fa-brands fa-github"></i></a>
+</section>
+
+<!-- TAB -->
+<section id="about" class="about_wrapper">
+    <div class="container">
+        <div class="p-5 rounded shadow mb-5">
+            <!-- Rounded tabs -->
+            <ul id="myTab" role="tablist" class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav">
+              <li class="nav-item flex-sm-fill">
+                <a id="home-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true" class="nav-link border-0 text-uppercase font-weight-bold active">Education</a>
+              </li>
+              <li class="nav-item flex-sm-fill">
+                <a id="profile-tab" data-toggle="tab" href="#skills" role="tab" aria-controls="skills" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Skils</a>
+              </li>
+              <li class="nav-item flex-sm-fill">
+                <a id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false" class="nav-link border-0 text-uppercase font-weight-bold">Contact</a>
+              </li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+              <div id="education" role="tabpanel" aria-labelledby="home-tab" class="tab-pane fade px-4 py-5 show active">
+                <h5>MCA (2022-2024)</h5>
+                <h5>Galgotias University</h5>
+                <h5>BCA</h5>
+                <h5>CCS University</h5>
+              </div>
+              <div id="skills" role="tabpanel" aria-labelledby="profile-tab" class="tab-pane fade px-4 py-5">
+                <h5>Languages:          C, C++, Python</h5>
+                <h5>Frontend:	        HTML, CSS, Bootstrap</h5>
+                <h5>Tools/Technologies:	Git, Linux, Postman</h5>
+                <h5>Core Concepts:	    DSA, OS, CN, DBMS</h5>
+              </div>
+              <div id="contact" role="tabpanel" aria-labelledby="contact-tab" class="tab-pane fade px-4 py-5">
+                <h5>Email :- chandanck22@yahoo.com</h5>
+                <p></p>
+            </div>
+            </div>
+            <!-- End rounded tabs -->
+          </div>
     </div>
-    
-    <div class="buttons">
-        <button><a href="index-main.html" target="_blank">About Me</a></button>
-        <button><a href="index-main.html" target="_blank">Portfoilo</a></button>
-        <button><a href="https://chandanck.hashnode.dev/" target="_blank">Blog</a></button>
+</section>
+
+<!-- BADGES -->
+<div class="badges">
+    <div class="container">
+        <h3 class="display-4">My Holopin board</h3> 
+        <p>Holopin are cool virtual stickers that you can collect. Don't have many of them yet, but I hope that my collection will grow :-) And in theory they should over the time represent my interests.</p>
     </div>
+        <a href="https://holopin.io/@chandanck22">
+            <img
+              src="https://holopin.me/chandanck22"
+              alt="@chandanck22 Holopin board"
+              class="img-fluid rounded-xl cursor-pointer grayscale-50 hover:grayscale-0 transform-gpu duration-200"
+            />
+          </a>
+</div>
+
+
+<!-- Footer -->
+<div class="social_wrapper">
+
+      <ul class="social sm-icons mr-0">
+        <h2>Stalk me on</h2>
+        <!-- <li class="social-icons"><a href="https://facebook.com/chandanck22/" target="_blank"><i class="fab fa-facebook-f"></i></a></li> -->
+        <li class="social-icons"><a href="https://instagram.com/chandanck22/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li class="social-icons"><a href="https://twitter.com/chandanck22/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-icons"><a href="https://www.linkedin.com/in/chandanck22/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        <li class="social-icons"><a href="https://github.com/chandanck22/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    <p>Made with <i class="far fa-heart"></i> by <a href="#">Chandan Kushwaha</a> © 2022</p>
 
 </div>
-<!-- BOOTSTRAP -->
+
+
+<!-- Bootstrap -->
 <script src="./js/jquery.min.js"></script>
 <script src="./js/popper.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<!-- JS -->
+<script src="./js/app.js"></script>
 
 </body>
 </html>
