@@ -81,7 +81,6 @@ h1 {
     font-weight: 700;
     color: #fff;
     margin-bottom: 1.25rem;
-
 }
 h2 {
     font-family: "Audiowide", sans-serif;
@@ -210,6 +209,37 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* TEHC */
+
+.section-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+}
+.sub-heading {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5rem;
+    margin-bottom: 4rem;
+}
+.tech_wrapper .image-wrapper{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.tech_wrapper .image-wrapper img{
+    width: 8rem;
+    height: 8rem;
+}
+
 
 /* TAB */
 
